@@ -1,0 +1,15 @@
+.icons{
+  width:181px;
+  height:30px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+/* @media screen and (max-width:1200px){
+ .icons{
+  flex-direction: column;
+  height:181px;
+  width:30px;
+ } 
+} */

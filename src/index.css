@@ -1,0 +1,137 @@
+/*reseting default styles start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*reseting default styles end*/
+
+/* jetbrains-mono-200 - latin_cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 200;
+  src: local(''),
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*default fonts start*/
+
+/* jetbrains-mono-300 - latin_cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-regular - latin_cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-500 - latin_cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../public/fonts/jetbrains-mono-v13-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ibm-plex-mono-regular - latin_cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../public/fonts/ibm-plex-mono-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../public/fonts/ibm-plex-mono-v12-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*default fonts end*/
+
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #060606; 
+  font-family: 'JetBrains Mono';
+  color: #C2BCD2;
+  letter-spacing: 0em;
+}
+
+/*positioning wrapper for all elements*/
+.wrapper{
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1169px){
+  .wrapper{
+    max-width:680px;
+  }
+} 
+  
+@media screen and (max-width:769px){
+  .wrapper{
+    max-width:400px;
+  }
+} 
+  
+@media screen and (max-width:449px){
+  .wrapper{
+    max-width:280px;
+  }
+} 

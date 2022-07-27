@@ -1,0 +1,53 @@
+.intro__title {
+  font-family: IBM Plex Mono;
+  font-size: 53px;
+  line-height: 69px;
+
+  max-width: 740px;
+  padding-bottom: 80px;
+}
+
+.intro__title_part1 {
+  margin-bottom: 20px;
+}
+
+.intro__subtitle1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+
+  max-width: 955px;
+  padding-bottom: 24px;
+}
+
+.intro__subtitle2 {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 21px;
+
+  padding-bottom: 152px;
+}
+
+@media screen and ( max-width: 1169px){
+  .intro__title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+@media screen and ( max-width: 769px){
+  .intro__title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+}
+
+
+@media screen and ( max-width: 449px){
+  .intro__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+
+

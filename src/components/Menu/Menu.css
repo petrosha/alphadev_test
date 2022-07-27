@@ -1,0 +1,36 @@
+.menu{
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.menu__element{
+  margin:0 20px;
+  cursor:pointer;
+}
+
+.menu__element:hover,.menu__element:active{
+  color:white;
+}
+
+.menu__element_active{
+  text-decoration: underline;
+  text-decoration-color: #534878;
+  text-decoration-thickness: 2px;
+}
+
+@media screen and (max-width: 769px) {
+  .menu{
+    padding-top:100px;
+    flex-direction:column;
+    padding-bottom:100px;
+  }
+
+  .menu__element{
+    padding-bottom:50px;
+  }
+}

@@ -1,0 +1,27 @@
+.sign-up{
+    height:51px;
+    width:156px;
+  
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+  
+    color:white;
+    background-color: transparent;
+    border: 3px solid white;
+  
+    text-transform: uppercase;
+}
+
+.sign-up:hover{
+    background-color:rgba(255,255,255,0.3);
+}
+
+.sign-up__link{
+    text-decoration: none;
+}
+
+.sign-up__link:visited{
+    color:white;
+}
+
