@@ -12,6 +12,12 @@
   padding-bottom: 70px;
 }
 
+.speakers__notification{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px; 
+}
+
 .speakers__grid{
   width:100%;
 

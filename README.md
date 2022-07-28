@@ -7,6 +7,8 @@ Create a Landing page according to Figma [design](https://www.figma.com/file/faV
   - As soon as the example is given only for 1440px all other resolutions are made according to my experience. 
   - Redux/Toolkit is used for data management. Two slices are used - one for downloaded data and one for ui. 
   - The menu is used for the page navigation. For small resolutions it changes to the burger-menu with additional full-screen component. 
+  - Axios is used for the server conenction. The connection to server is made in useEffect hook as soon as it happens only once.
+  - The "Loading" notification is added to Speakers component for the case of slow connections. 
   - The header stays over the page for any window scrolling position. 
   - Placeholders are added for all links
   - All clickable elements have their :hover styles
@@ -23,7 +25,8 @@ Create a Landing page according to Figma [design](https://www.figma.com/file/faV
  - Для организации данных использован Redux/Toolkit с двумя slice - для загружаемых с сервера данных и для данных страницы.
  - Добавлено меню для навигации по странице. Для малых разрешений меню выполнено в виде burger-menu с одтельным полноэкранным компонентом.
  - Header виден для любой прокрутки страницы. 
- - Загрузка данных с сервера осуществляется в компоненте, через useEffect. Коннекшин через axios. Сделана простейшая проверка на ошибку загрузки с выводом в консоль, чтобы не пугать посетителей.  
+ - Загрузка данных с сервера осуществляется в компоненте, через useEffect, так как данные загружаются лишь однажды. Коннекшин через axios. Сделана простейшая проверка на ошибку загрузки с выводом в консоль, чтобы не пугать посетителей.  
+ - Добавлено уведомление "Загрузка" на случай медленной загрузки.
  - Ссылки заполнены placeholders.
  - Для всех активных элементов сделаны стили :hover. 
  - Использованы шрифты IBM Plex Mono для заголовка H1 и JetBrains Mono для остального.  
